@@ -28,3 +28,29 @@ Traditional monitoring highlights where issues appear, but often fails to explai
 - how issues propagate across services
 
 This project addresses that gap by combining **high-performing machine learning models** with **explainable AI (XAI)** techniques to support clearer and faster diagnosis.
+
+#### Data & Observability Scope
+
+The analysis is based on **distributed tracing data**, where:
+
+- Each trace represents a single request
+
+- Each trace consists of multiple spans (units of work)
+
+- Spans include service names, tags, and error indicators
+
+Traces are labeled as:
+
+- **normal**, if all spans are healthy
+
+- **erroneous**, if at least one span reports an error
+
+The resulting datasets are:
+
+- high-dimensional
+
+- sparse
+
+- dominated by missing values
+
+reflecting real-world observability challenges rather than curated datasets.
