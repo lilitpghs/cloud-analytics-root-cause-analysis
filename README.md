@@ -146,10 +146,7 @@ This type of analysis is especially relevant in high-volume, high-complexity env
 ```text
 ├── capstone.ipynb        # Main analysis notebook (static, non-executable)
 ├── README.md             # Project documentation
-
-
-
-
+```
 Note:
 The notebook is provided as-is for transparency and review.
 Datasets and execution artifacts are not included.
