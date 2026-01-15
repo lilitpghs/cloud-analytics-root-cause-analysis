@@ -87,6 +87,8 @@ Models achieved near-perfect accuracy in distinguishing normal and erroneous tra
 
 To move beyond prediction, the project applies explainable AI methods, including:
 
+- Tree-based ensemble models with strong predictive performance
+
 - SHAP (SHapley Additive Explanations)
 
 - permutation-based feature importance
@@ -100,3 +102,30 @@ These techniques reveal:
 - which attributes and tag values are associated with degraded behavior
 
 - how different explanations align across methods
+
+Special attention is given to:
+
+- Handling extremely sparse data (80–90% missing values)
+
+- Balancing predictive power vs interpretability
+
+- Validating explanations across multiple methods
+
+#### Key Results
+
+This work demonstrates that:
+
+- High-performing ensemble models can be combined with XAI techniques to provide clear, actionable explanations
+
+- Specific microservices and span-level attributes consistently emerge as drivers of failures
+
+- Explainability methods converge on similar root causes across different feature representations
+
+- Duration-based signals alone are insufficient — contextual span attributes provide deeper insight
+
+- Interpretable outputs significantly improve the usefulness of analytics for operational teams
+
+├── capstone.ipynb        # Main analysis notebook (static, non-executable)
+├── README.md             # Project documentation
+└── figures/              # Visuals used in analysis (optional)
+
