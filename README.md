@@ -158,5 +158,7 @@ Cloud Analytics · System Monitoring · Distributed Tracing · Explainable AI ·
 #### Author
 
 Lilit Poghosyan
+
 Background in Industrial Engineering, Business Intelligence and Data Analytics
+
 Focus on analytics that improve decision quality in complex operational systems
