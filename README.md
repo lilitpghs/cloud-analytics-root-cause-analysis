@@ -54,3 +54,49 @@ The resulting datasets are:
 - dominated by missing values
 
 reflecting real-world observability challenges rather than curated datasets.
+
+#### Analytical Approach
+
+The notebook implements the following workflow:
+
+#### Feature Engineering
+
+Multiple feature representations were constructed to capture system behavior at different levels, including:
+
+- span presence
+
+- span repetition counts
+
+- span–tag combinations
+
+- selected duration-related attributes
+
+#### Predictive Modeling
+
+Tree-based ensemble models were applied due to their ability to:
+
+- handle large amounts of missing data
+
+- scale to high-dimensional inputs
+
+- provide strong classification performance
+
+Models achieved near-perfect accuracy in distinguishing normal and erroneous traces.
+
+#### Explainability & Root Cause Analysis
+
+To move beyond prediction, the project applies explainable AI methods, including:
+
+- SHAP (SHapley Additive Explanations)
+
+- permutation-based feature importance
+
+- rule-based methods for validation
+
+These techniques reveal:
+
+- which microservices contribute most to failures
+
+- which attributes and tag values are associated with degraded behavior
+
+- how different explanations align across methods
