@@ -125,7 +125,11 @@ This work demonstrates that:
 
 - Interpretable outputs significantly improve the usefulness of analytics for operational teams
 
+## Repository Structure
+
+```text
 ├── capstone.ipynb        # Main analysis notebook (static, non-executable)
 ├── README.md             # Project documentation
 └── figures/              # Visuals used in analysis (optional)
+
 
