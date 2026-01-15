@@ -9,22 +9,22 @@ This repository presents an applied analytics project focused on root cause anal
 
 #### Problem Context
 
-Modern cloud applications rely on microservices architectures, where individual user requests propagate across many independent services. While monitoring systems capture large volumes of:
+Modern cloud applications rely on microservices architectures, where individual user requests propagate across many independent services. While monitoring systems capture large volumes of
 
-application traces
+- application traces
 
-span-level metadata
+- span-level metadata
 
-error indicators
+- error indicators
 
-identifying the true root cause of failures remains difficult.
+identifying **the true root cause** of failures remains difficult.
 
 Traditional monitoring highlights where issues appear, but often fails to explain:
 
-which components are responsible
+- which components are responsible
 
-which attributes drive failures
+- which attributes drive failures
 
-how issues propagate across services
+- how issues propagate across services
 
-This project addresses that gap by combining high-performing machine learning models with explainable AI (XAI) techniques to support clearer and faster diagnosis.
+This project addresses that gap by combining **high-performing machine learning models** with **explainable AI (XAI)** techniques to support clearer and faster diagnosis.
