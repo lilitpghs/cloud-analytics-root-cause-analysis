@@ -5,8 +5,26 @@
 
 #### Overview
 
-This repository presents an applied analytics project focused on root cause analysis (RCA) in modern cloud-native applications using distributed tracing data and explainable machine learning.
+This repository presents an applied analytics project focused on root cause analysis (RCA) in modern cloud-native applications using distributed tracing data and explainable machine learning. The work explores how high-volume observability data (application traces and spans) can be transformed into actionable insights that help engineers understand which microservices contribute to failures or performance degradation, and why. The implementation is provided as a single, end-to-end notebook reflecting the full analytical workflow, from feature construction to explainability-driven insights.
 
-The work explores how high-volume observability data (application traces and spans) can be transformed into actionable insights that help engineers understand which microservices contribute to failures or performance degradation, and why.
+#### Problem Context
 
-The implementation is provided as a single, end-to-end notebook reflecting the full analytical workflow, from feature construction to explainability-driven insights.
+Modern cloud applications rely on microservices architectures, where individual user requests propagate across many independent services. While monitoring systems capture large volumes of:
+
+application traces
+
+span-level metadata
+
+error indicators
+
+identifying the true root cause of failures remains difficult.
+
+Traditional monitoring highlights where issues appear, but often fails to explain:
+
+which components are responsible
+
+which attributes drive failures
+
+how issues propagate across services
+
+This project addresses that gap by combining high-performing machine learning models with explainable AI (XAI) techniques to support clearer and faster diagnosis.
