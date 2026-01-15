@@ -144,8 +144,8 @@ This type of analysis is especially relevant in high-volume, high-complexity env
 ## Repository Structure
 
 ```text
-├── capstone.ipynb        # Main analysis notebook (static, non-executable)
 ├── README.md             # Project documentation
+├── capstone.ipynb        # Main analysis notebook (static, non-executable)
 ```
 > **Note:**  
 > The notebook is provided as-is for transparency and review.  
