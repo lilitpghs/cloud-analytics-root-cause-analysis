@@ -125,13 +125,39 @@ This work demonstrates that:
 
 - Interpretable outputs significantly improve the usefulness of analytics for operational teams
 
+#### Practical Impact
+
+The approach enables:
+
+- Faster identification of problematic microservices
+
+- Reduced time spent investigating low-impact components
+
+- Clear explanations that support operational trust
+
+- Decision support for system operators and reliability engineers
+
+- A foundation for explainable AIOps and observability platforms
+
+This type of analysis is especially relevant in high-volume, high-complexity environments where manual root cause investigation does not scale.
+
 ## Repository Structure
 
 ```text
 ├── capstone.ipynb        # Main analysis notebook (static, non-executable)
 ├── README.md             # Project documentation
-└── figures/              # Visuals used in analysis (optional)
+
 
 Note:
 The notebook is provided as-is for transparency and review.
 Datasets and execution artifacts are not included.
+
+#### Keywords
+
+Cloud Analytics · System Monitoring · Distributed Tracing · Explainable AI · Root Cause Analysis · AIOps · Decision Support · Observability · SHAP · Feature Importance · Microservices
+
+#### Author
+
+Lilit Poghosyan
+Background in Industrial Engineering, Business Intelligence and Data Analytics
+Focus on analytics that improve decision quality in complex operational systems
