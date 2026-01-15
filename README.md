@@ -132,4 +132,6 @@ This work demonstrates that:
 ├── README.md             # Project documentation
 └── figures/              # Visuals used in analysis (optional)
 
-
+Note:
+The notebook is provided as-is for transparency and review.
+Datasets and execution artifacts are not included.
