@@ -1,6 +1,8 @@
 # cloud-analytics-root-cause-analysis
-#Cloud Analytics & System Monitoring
-#Explainable Root Cause Analysis for Modern Cloud Applications
+Cloud Analytics & System Monitoring
+
+Explainable Root Cause Analysis for Modern Cloud Applications
+
 Overview
 
 This repository presents an applied analytics project focused on root cause analysis (RCA) in modern cloud-native applications using distributed tracing data and explainable machine learning.
