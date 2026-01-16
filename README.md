@@ -1,5 +1,5 @@
 # cloud-analytics-root-cause-analysis
-## Cloud Analytics & System Monitoring
+# Cloud Analytics & System Monitoring
 
 ### Explainable Root Cause Analysis for Modern Cloud Applications
 
