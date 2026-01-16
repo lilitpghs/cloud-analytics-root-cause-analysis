@@ -3,13 +3,11 @@
 
 ### Explainable Root Cause Analysis for Modern Cloud Applications
 
-#### Overview
+## Overview
 
 This project presents an applied root cause analysis (RCA) study for modern cloud-native applications using distributed tracing data and explainable machine learning. The goal is not merely to detect failures, but to identify which microservices and span-level attributes are responsible for failures, and why, in highly complex and sparse observability data. The analysis is implemented as a single end-to-end notebook, covering feature engineering, model training, and multiple explainability techniques. The work is grounded in realistic tracing data characteristics, including extreme sparsity (80–90% missing values), high dimensionality, and noisy signals.
 
-#### Problem Context
-
-Problem Context
+## Problem Context
 
 In microservices-based architectures, a single user request propagates across many independent services. Observability platforms collect massive volumes of trace and span data, yet root cause identification remains largely manual and time-consuming.
 
@@ -23,7 +21,7 @@ Traditional monitoring tools answer where an issue occurs, but not:
 
 This project addresses that gap by combining high-performing ensemble models with explainable AI (XAI) techniques to support trustworthy and actionable RCA.
 
-#### Data & Observability Scope
+## Data & Observability Scope
 
 The analysis is based on distributed tracing data with the following structure:
 
@@ -47,7 +45,7 @@ The resulting datasets are:
 
 - derived from real observability data, not curated benchmarks
 
-#### Analytical Approach
+## Analytical Approach
 
 #### Feature Engineering
 
@@ -75,7 +73,7 @@ Tree-based ensemble models (XGBoost, HistGradientBoosting) were used because the
 
 Across all feature setups, models achieved precision, recall, and F1-scores close to 1.0 on held-out test data. This confirmed that prediction is easy in this setting — the challenge lies in explanation.
 
-#### Explainability & Root Cause Analysis
+## Explainability & Root Cause Analysis
 
 To move beyond prediction, the project applied and compared:
 
@@ -97,7 +95,7 @@ Special care was taken to address:
 
 - agreement across multiple explanation techniques
 
-#### Key Results & Findings
+## Key Results & Findings
 
 This project produced several clear empirical findings:
 
@@ -151,7 +149,7 @@ By identifying:
 
 the analysis transforms raw observability data into actionable diagnostic insight.
 
-#### Practical Impact
+## Practical Impact
 
 This approach enables:
 
@@ -165,7 +163,7 @@ This approach enables:
 
 The work demonstrates a concrete foundation for explainable AIOps and RCA systems that scale to real-world observability data.
 
-#### Key Takeaway
+## Key Takeaway
 
 High-performing models alone do not solve root cause analysis.
 **Explanation is the product.**
@@ -182,10 +180,10 @@ This project shows that even in extremely sparse, high-dimensional tracing data,
 > The notebook is provided as-is for transparency and review.  
 > Datasets and execution artifacts are not included.
 
-#### Keywords
+## Keywords
 
 Cloud Analytics · System Monitoring · Distributed Tracing · Explainable AI · Root Cause Analysis · AIOps · Decision Support · Observability · SHAP · Feature Importance · Microservices
 
-#### Author
+## Author
 
 **Lilit Poghosyan** — Background in Industrial Engineering, Business Intelligence, and Data Analytics, with a focus on improving decision quality in complex operational systems.
