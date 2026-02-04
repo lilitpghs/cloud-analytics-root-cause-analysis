@@ -37,6 +37,7 @@ The project demonstrates how explainable ML can transform raw observability data
 ### Repository
 
 ├── README.md - project documentation
+
 ├── capstone.ipynb - main analysis notebook (static, non-executable)
 
 ### Keywords
