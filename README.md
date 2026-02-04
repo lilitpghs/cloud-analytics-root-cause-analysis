@@ -37,8 +37,9 @@ The project demonstrates how explainable ML can transform raw observability data
 ### Repository
 
 ```text
-├── README.md - project documentation
-├── capstone.ipynb - main analysis notebook (static, non-executable)
+├── README.md                                     # Project documentation
+├── cloud_analytics_root_cause_analysis.ipynb     # Main analysis notebook (static, non-executable)
+├── Master Thesis IESM.pdf                        # Master’s thesis document
 ```
 
 ### Keywords
