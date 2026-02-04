@@ -36,9 +36,10 @@ The project demonstrates how explainable ML can transform raw observability data
 
 ### Repository
 
+```text
 ├── README.md - project documentation
-
 ├── capstone.ipynb - main analysis notebook (static, non-executable)
+```
 
 ### Keywords
 Explainable AI · Root Cause Analysis · Distributed Tracing · Cloud Analytics · AIOps · Decision Support · Microservices
